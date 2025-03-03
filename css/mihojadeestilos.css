@@ -1,0 +1,98 @@
+@charset "utf-8";
+body{
+	scroll-behavior: smooth;
+}
+.bg-propio{
+	background-color: rgba(17,16,16,1.00);
+}
+.card {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+   filter: saturate(2);
+}
+.bg_regularshow{
+	background-color: rgba(50,20,49,1.00)
+}
+.bg_adventuretime{
+	background-color:rgba(255,177,0,1.00);
+}
+.fondo_sep1 {
+    background-image:url("../img/Fondo_Regular_Show_Casa_Techo.png")
+}
+.fondo_sep2 {
+    background-image:url("../img/fondosep2_Casa_Steven_Universe.png")
+}
+.fondo_sep3 {
+    background-image:url("../img/fondosep.png")
+}
+.fondo_sep4 {
+    background-image:url("../img/Fondo_casa_el_increible_mundo_de_gumball.png")
+}
+.separador {
+	display: flex;
+	justify-content: center;
+    padding: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.letrassep{
+	color: rgba(48,48,48,1.00);
+	font-size: 40px;		
+}
+.seleccionimg {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.seleccionimg img {
+    transition: transform 0.3s ease, filter 0.3s ease;
+    display: block;
+    width: 100%; 
+}
+
+.seleccionimg:hover img {
+    transform: scale(1.1);
+    filter: brightness(1.2) contrast(1.1);
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.6);
+}.nav_color{
+	background-color: #FC98D9;
+}
+.bg-propio{
+	background-color: rgba(17,16,16,1.00);
+}
+/*es para el hover de las imagenes*/
+.card {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+   filter: saturate(2);
+}
+.color_rosa{
+	background-color: #FC98D9;
+	border: none;
+	}
+#img_text{
+	width: 30%;
+	margin: auto;
+}
+.color_azul{
+    background-color: #00a5da;
+    border: none;
+	}
+.imgh4{
+	font-size: 20px;
+}
+i {
+    font-size: 30px; 
+}
+a i:hover{
+    transform: scale(1.15);
+   filter: saturate(2);
+}
